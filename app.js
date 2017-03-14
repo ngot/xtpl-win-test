@@ -10,6 +10,7 @@ function load(tpl, callback) {
     console.log('pathName:', pathName);
     let content = fs.readFileSync(pathName).toString();
     const fn = template.compile(content, pathName);
+    
     callback(null, fn)
 }
 
