@@ -1,0 +1,3 @@
+{{ include("./header.xtpl") }}
+
+<div>this is body!</div>

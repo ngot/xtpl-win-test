@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "egg-ci": "^1.5.0",
+    "xtemplate": "^4.6.0"
+  },
+  "scripts": {
+    "ci": "node app.js"
+  },
+  "ci": {
+    "type": "travis, appveyor",
+    "version": "6",
+    "command": "ci"
+  }
+}
